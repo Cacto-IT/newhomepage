@@ -1,0 +1,18 @@
+:root {
+  --verde-claro: #3aee8b;
+  --verde-intermediario: #04d361;
+  --verde-escuro: #00ab4d;
+  --rosa-claro: #b185f0;
+  --rosa-intermediario: #9457ea;
+  --purple: #7239c2;
+  --black: #101023;
+  --light: #e6e6ff;
+}
+
+body {
+  /* background-color: gray; */
+  background-color: #101023;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: var(--light);
+}

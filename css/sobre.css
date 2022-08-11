@@ -28,7 +28,6 @@
   margin-right: 36px;
 }
 .sobre__titulo {
-  font-family: "Source Sans Pro", monospace;
   color: var(--purple);
   font-weight: 700;
   font-size: 2.375rem;
@@ -38,7 +37,7 @@
   text-align: center;
 }
 .sobre__texto {
-  font-family: "Source Serif Pro", monospace;
+  font-family: "Source Serif Pro", serif;
   color: var(--purple);
   text-align: center;
   width: 216px;

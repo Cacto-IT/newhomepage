@@ -11,7 +11,6 @@
 .informacoes__sobre {
   font-size: 4.18rem;
   font-weight: 700;
-  font-family: Source Sans Pro, sans-serif;
 }
 .informacoes__texto {
   font-size: 1.75rem;
@@ -25,7 +24,6 @@
   border: solid 1px var(--purple);
   width: 180px;
   height: 50px;
-  font-family: "Source Code Pro", monospace;
   font-weight: 700;
   display: flex;
   align-items: center;

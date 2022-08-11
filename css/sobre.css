@@ -27,6 +27,16 @@
   height: 650px;
   margin-right: 36px;
 }
+
+.sobre__img {
+  height: 50px;
+  width: 50px;
+  margin-top: 68px;
+  margin-bottom: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .sobre__titulo {
   color: var(--purple);
   font-weight: 700;
@@ -36,6 +46,7 @@
   justify-content: center;
   text-align: center;
 }
+
 .sobre__texto {
   font-family: "Source Serif Pro", serif;
   color: var(--purple);

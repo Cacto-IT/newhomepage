@@ -22,3 +22,6 @@ ul,
 li {
   padding: 0;
 }
+input {
+  border: none;
+}

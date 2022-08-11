@@ -9,8 +9,16 @@
   --light: #e6e6ff;
 }
 
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
-  /* background-color: gray; */
   background-color: #101023;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;

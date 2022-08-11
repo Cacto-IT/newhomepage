@@ -1,3 +1,10 @@
+.sobre__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1260px;
+}
+
 .sobre__estilo {
   display: flex;
   flex-direction: column;
@@ -8,9 +15,6 @@
   height: 650px;
   overflow: hidden;
   text-overflow: ellipsis;
-  /* white-space: nowrap; */
-  /* -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical; */
 }
 
 .sobre {
@@ -20,6 +24,7 @@
   margin-top: 80px;
   background-color: var(--black);
   width: 100%;
+  height: 650px;
   margin-right: 36px;
 }
 .sobre__titulo {

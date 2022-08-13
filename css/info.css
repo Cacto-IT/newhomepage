@@ -1,11 +1,11 @@
-.sobre__container {
+.info__container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   width: 1260px;
 }
 
-.sobre__estilo {
+.info__card {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -17,7 +17,7 @@
   text-overflow: ellipsis;
 }
 
-.sobre {
+.info {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -28,7 +28,7 @@
   margin-right: 36px;
 }
 
-.sobre__img {
+.info__img {
   height: 50px;
   width: 50px;
   margin-top: 68px;
@@ -37,7 +37,7 @@
   justify-content: center;
   align-items: center;
 }
-.sobre__titulo {
+.info__title {
   color: var(--purple);
   font-weight: 700;
   font-size: 2.375rem;
@@ -47,7 +47,7 @@
   text-align: center;
 }
 
-.sobre__texto {
+.info__description {
   font-family: "Source Serif Pro", serif;
   color: var(--purple);
   text-align: center;
@@ -58,6 +58,4 @@
   font-weight: 400;
   margin-top: 40px;
   margin-bottom: 48px;
-  /* text-overflow: clip ellipsis;
-  overflow: clip; */
 }

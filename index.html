@@ -13,52 +13,49 @@
     />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/base.css" />
-    <link rel="stylesheet" href="./css/cabecalho.css" />
-    <link rel="stylesheet" href="./css/chamada.css" />
-    <link rel="stylesheet" href="./css/informacoes.css" />
-    <link rel="stylesheet" href="./css/sobre.css" />
-    <link rel="stylesheet" href="./css/formulario.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/subscribe.css" />
+    <link rel="stylesheet" href="./css/info.css" />
+    <link rel="stylesheet" href="./css/form.css" />
   </head>
   <body>
-    <header class="cabecalho">
+    <header class="header">
       <div class="container">
-        <div class="cabecalho__estilo">
-          <img src="./css/img/logo.png" alt="Logo" class="cabecalho__logo" />
-          <nav class="cabecalho__menu">
-            <div class="cabecalho__menu--estilo">
-              <ul class="cabecalho__lista">
-                <li class="cabecalho__lista--item">
-                  <a href="#" class="cabecalho__lista--link">Home</a>
-                </li>
+        <div class="header__box">
+          <img src="./css/img/logo.png" alt="Logo" class="header__logo" />
+          <nav class="menu">
+            <ul class="menu__box">
+              <li class="menu__box--item">
+                <a href="#">Home</a>
+              </li>
 
-                <li class="cabecalho__lista--item">
-                  <a href="#" class="cabecalho__lista--link"
-                    >Serviços e Produtos</a
-                  >
-                </li>
+              <li class="menu__box--item">
+                <a href="#">Serviços e Produtos</a>
+              </li>
 
-                <li class="cabecalho__lista--item">
-                  <a href="#" class="cabecalho__lista--link">Blog</a>
-                </li>
+              <li class="menu__box--item">
+                <a href="#">Blog</a>
+              </li>
 
-                <li class="cabecalho__lista--item">
-                  <a href="#" class="cabecalho__lista--link">Contato</a>
-                </li>
-              </ul>
-            </div>
-            <a class="cabecalho__menu--botao-texto">LOGIN</a>
+              <li class="menu__box--item">
+                <a href="#">Contato</a>
+              </li>
+            </ul>
+
+            <a class="menu__button">LOGIN</a>
           </nav>
         </div>
       </div>
     </header>
     <main>
-      <section class="chamada__teste">
-        <div class="box">
-          <h1 class="chamada__titulo">
+      <section class="banner">
+        <div class="banner__box">
+          <h1 class="banner__box--title">
             Lorem Ipsum is <br />
             simply dummy text
           </h1>
-          <p class="chamada__subtitulo">
+          <p class="banner__box--subtitle">
             Contrary to popular belief, Lorem Ipsum is not simples radom text.
             It
             <br />
@@ -68,24 +65,24 @@
             over 200 years old.
           </p>
 
-          <a class="chamada__botao--link">SAIBA MAIS</a>
+          <a class="banner__box--link">SAIBA MAIS</a>
         </div>
       </section>
 
-      <section class="informacoes">
-        <h2 class="informacoes__sobre">Lorem Ipsum text</h2>
-        <p class="informacoes__texto">
+      <section class="subscribe">
+        <h2 class="subscribe__title">Lorem Ipsum text</h2>
+        <p class="subscribe__description">
           The standard chunk of Lorem Ipsum used since the<br />
           1500s is reproduced below for those interested.
         </p>
-        <a class="informacoes__botao--link">Inscreva-se</a>
+        <a class="subscribe__button">Inscreva-se</a>
       </section>
-      <section class="sobre">
-        <div class="sobre__container">
-          <div class="sobre__estilo">
-            <img class="sobre__img>" src="" alt="" />
-            <h2 class="sobre__titulo">Lorem Ipsum</h2>
-            <p class="sobre__texto">
+      <section class="info">
+        <div class="info__container">
+          <div class="info__card">
+            <img class="info__img>" src="" alt="" />
+            <h2 class="info__title">Lorem Ipsum</h2>
+            <p class="info__description">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don’t look even
@@ -94,20 +91,20 @@
               hidden in the middle of text.
             </p>
           </div>
-          <div class="sobre__estilo">
-            <img class="sobre__img>" src="" alt="" />
-            <h2 class="sobre__titulo">Lorem Ipsum</h2>
-            <p class="sobre__texto">
+          <div class="info__card">
+            <img class="info__img>" src="" alt="" />
+            <h2 class="info__title">Lorem Ipsum</h2>
+            <p class="info__description">
               Lorem Ipsum generators on the Internet tend to repeat predefined
               chunks as necessary, making this the first true generator on the
               Internet. It uses a dictionary of over 200 Latin words, combined
               with a handful of model sentence structures, to generate Lorem
             </p>
           </div>
-          <div class="sobre__estilo">
-            <img class="sobre__img>" src="" alt="" />
-            <h2 class="sobre__titulo">Lorem Ipsum</h2>
-            <p class="sobre__texto">
+          <div class="info__card">
+            <img class="info__img>" src="" alt="" />
+            <h2 class="info__title">Lorem Ipsum</h2>
+            <p class="info__description">
               Lorem Ipsum generators on the Internet tend to repeat predefined
               chunks as necessary, making this the first true generator on the
               Internet. It uses a dictionary of over 200 Latin words, combined
@@ -115,10 +112,10 @@
               Ipsum which looks reasonable.
             </p>
           </div>
-          <div class="sobre__estilo">
-            <img class="sobre__img>" src="" alt="" />
-            <h2 class="sobre__titulo margem-direita">Lorem Ipsum</h2>
-            <p class="sobre__texto">
+          <div class="info__card">
+            <img class="info__img>" src="" alt="" />
+            <h2 class="info__title">Lorem Ipsum</h2>
+            <p class="info__description">
               Lorem Ipsum generators on the Internet tend to repeat predefined
               chunks as necessary, making this the first true generator on the
               Internet.
@@ -126,45 +123,41 @@
           </div>
         </div>
       </section>
-      <section class="formulario">
-        <div class="container__formulario">
-          <h2 class="formulario__texto">Marque uma conversa</h2>
-          <div class="formulario__container">
-            <div class="formulario__itens">
-              <input
-                class="formulario__itens-input"
-                type="text"
-                name="Nome"
-                placeholder="Nome"
-              />
-              <input
-                class="formulario__itens-input"
-                type="text"
-                name="E-mail"
-                placeholder="E-mail"
-              />
-              <input
-                class="formulario__itens-input"
-                type="text"
-                name="Telefone"
-                placeholder="Telefone"
-              />
-              <input
-                class="formulario__itens-input"
-                type="text"
-                name="Assunto"
-                placeholder="Assunto"
-              />
-            </div>
-            <div class="formulario__itens">
-              <input
-                type="text"
-                name="formulario"
-                placeholder="Conta um pouco mais"
-                class="formulario__itens-conte"
-              />
-              <button class="formulario__botao">ENVIAR</button>
-            </div>
+      <section class="form">
+        <h2 class="form__title">Marque uma conversa</h2>
+        <div class="form__container">
+          <div class="form__box">
+            <input class="input" type="text" name="Nome" placeholder="Nome" />
+            <input
+              class="input"
+              type="text"
+              name="E-mail"
+              placeholder="E-mail"
+            />
+            <input
+              class="input"
+              type="text"
+              name="Telefone"
+              placeholder="Telefone"
+            />
+            <input
+              class="input"
+              type="text"
+              name="Assunto"
+              placeholder="Assunto"
+            />
+          </div>
+          <div class="form__box">
+            <textarea
+              wrap="hard"
+              rows="5"
+              type="text"
+              name="form"
+              placeholder="Conta um pouco mais"
+              class="input--text"
+            >
+            </textarea>
+            <button class="form__button">ENVIAR</button>
           </div>
         </div>
       </section>

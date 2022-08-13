@@ -1,31 +1,30 @@
-@media (min-width: 768px) {
-  .chamada__teste {
-    background-image: url(../css/img/portrait-man-with-glasses-virtual-reality-vr-interacts-with-virtual-screen\ 1.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 834px;
-    background-size: cover;
-  }
+.banner {
+  background-image: url(../css/img/portrait-man-with-glasses-virtual-reality-vr-interacts-with-virtual-screen\ 1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 834px;
+  background-size: cover;
 }
-.box {
+
+.banner__box {
   margin: 0 auto;
   width: 100%;
   max-width: 1260px;
   display: flex;
   flex-direction: column;
 }
-.chamada__titulo {
+.banner__box--title {
   font-size: 4.18rem;
   padding-top: 241px;
   display: flex;
   font-weight: 700;
 }
-.chamada__subtitulo {
+.banner__box--subtitle {
   font-size: 1.31rem;
 
   margin-top: 32px;
 }
-.chamada__botao--link {
+.banner__box--link {
   font-size: 1.31rem;
   font-weight: 700;
   background-color: var(--rosa-intermediario);

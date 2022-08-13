@@ -27,3 +27,7 @@ body {
 main {
   padding-bottom: 534px;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}

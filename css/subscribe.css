@@ -1,4 +1,4 @@
-.informacoes {
+.subscribe {
   background-color: var(--light);
   color: var(--black);
   padding-top: 48px;
@@ -8,17 +8,17 @@
   align-items: center;
   justify-content: center;
 }
-.informacoes__sobre {
+.subscribe__title {
   font-size: 4.18rem;
   font-weight: 700;
 }
-.informacoes__texto {
+.subscribe__description {
   font-size: 1.75rem;
   margin-top: 31px;
   display: flex;
   text-align: center;
 }
-.informacoes__botao--link {
+.subscribe__button {
   font-size: 1.31rem;
   color: var(--purple);
   border: solid 1px var(--purple);

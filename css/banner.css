@@ -34,4 +34,6 @@
   align-items: center;
   justify-content: center;
   margin-top: 52px;
+  color: inherit;
+  border: none;
 }

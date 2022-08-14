@@ -1,21 +1,15 @@
 :root {
-  --verde-claro: #3aee8b;
-  --verde-intermediario: #04d361;
-  --verde-escuro: #00ab4d;
-  --rosa-claro: #b185f0;
-  --rosa-intermediario: #9457ea;
-  --purple: #7239c2;
-  --black: #101023;
+  --primary-light: #3aee8b;
+  ---primary: #04d361;
+  --primary-dark: #00ab4d;
+  --secondary-ligth: #b185f0;
+  --secondary: #9457ea;
+  --secondary-dark: #7239c2;
+  --dark: #101023;
   --light: #e6e6ff;
 }
-
-.container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1260px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+html {
+  font-size: 62.5%;
 }
 
 body {
@@ -30,4 +24,62 @@ main {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+h1 {
+  font-family: Source Code Pro;
+  font-size: 8.9rem;
+  font-weight: 400;
+  line-height: 11.1rem;
+}
+h2 {
+  font-size: 6.7rem;
+  font-weight: 700;
+  line-height: 8.42rem;
+}
+h3 {
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 6.28rem;
+}
+
+h4 {
+  font-size: 3.8rem;
+  font-weight: 400;
+  line-height: 4.77rem;
+}
+
+h5 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 3.52rem;
+}
+
+h6 {
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+button {
+  width: 180px;
+  height: 50px;
+  font-size: 2.1rem;
+  font-weight: 700;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

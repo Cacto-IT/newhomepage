@@ -3,7 +3,7 @@
   color: var(--light);
   align-items: center;
   width: 100%;
-  font-size: 1.31rem;
+  font-size: 2.1rem;
   height: 103px;
 }
 
@@ -13,12 +13,7 @@
   width: 100%;
   align-items: center;
 }
-.menu--estilo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* width: 100%; */
-}
+
 .header__logo {
   width: 180px;
   height: 55px;
@@ -34,7 +29,10 @@
   display: flex;
   justify-content: space-between;
   margin-right: 32px;
-  font-size: 1.31rem;
+  font-size: 2.1rem;
+}
+.menu__box--item:last-child {
+  margin-right: 0px;
 }
 .menu__box {
   display: flex;
@@ -43,9 +41,7 @@
   align-items: center;
 }
 .menu__button {
-  background-color: var(--verde-intermediario);
-  width: 180px;
-  height: 50px;
+  background-color: var(---primary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,6 +50,5 @@
   padding-right: 90px;
   padding-top: 16px;
   padding-bottom: 16px;
-  color: inherit;
-  font-size: inherit;
+  color: var(--light);
 }

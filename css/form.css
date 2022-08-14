@@ -20,13 +20,13 @@
 }
 .form__title {
   padding-top: 80px;
-  color: var(--verde-claro);
+  color: var(--primary-light);
   margin-bottom: 32px;
   font-weight: 400;
-  font-size: 2.375rem;
+  font-size: 3.8rem;
 }
 .input {
-  background-color: var(--verde-claro);
+  background-color: var(--primary-light);
   border-radius: 10px;
   width: 396px;
   height: 48px;
@@ -38,7 +38,7 @@
 }
 
 .input--text {
-  background-color: var(--verde-claro);
+  background-color: var(--primary-light);
   width: 416px;
   height: 176px;
   border-radius: 10px;
@@ -50,14 +50,14 @@
 .form__button {
   width: 414px;
   height: 48px;
-  border: solid 1px var(--verde-claro);
+  border: solid 1px var(--primary-light);
   border-radius: 10px;
-  color: var(--verde-claro);
+  color: var(--primary-light);
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 16px;
   padding-bottom: 16px;
-  background-color: var(--black);
+  background-color: var(--dark);
   font-family: "Source Serif Pro", serif;
 }

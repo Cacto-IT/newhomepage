@@ -1,21 +1,16 @@
 :root {
-  --verde-claro: #3aee8b;
-  --verde-intermediario: #04d361;
-  --verde-escuro: #00ab4d;
-  --rosa-claro: #b185f0;
-  --rosa-intermediario: #9457ea;
-  --purple: #7239c2;
-  --black: #101023;
+  --primary-light: #3aee8b;
+  --primary: #04d361;
+  --primary-dark: #00ab4d;
+  --secondary-light: #b185f0;
+  --secondary: #9457ea;
+  --secondary-dark: #7239c2;
+  --dark: #101023;
   --light: #e6e6ff;
 }
 
-.container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1260px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+html {
+  font-size: 62.5%;
 }
 
 body {
@@ -30,4 +25,13 @@ main {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

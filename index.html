@@ -160,7 +160,20 @@
             <button class="form__button">ENVIAR</button>
           </div>
         </div>
+        <p id="log"></p>
       </section>
     </main>
   </body>
+  <script>
+    setTimeout(() => {
+      const { pixelDepth, width, height } = window.screen;
+      const message = JSON.stringify({ pixelDepth, width, height });
+
+      const messageElement = document.getElementById("log");
+      messageElement.textContent = message;
+
+      console.log(message);
+      console.log(messageElement);
+    }, 2500);
+  </script>
 </html>

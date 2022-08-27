@@ -65,3 +65,35 @@
   font-family: "Source Serif Pro", serif;
   font-weight: 400;
 }
+@media screen and (max-width: 480px) {
+  .form {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .form__title {
+    justify-content: center;
+  }
+  .form__container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+  }
+  .form__box {
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+  }
+  .input--text {
+    width: 100%;
+  }
+  .form__button {
+    width: 100%;
+  }
+}

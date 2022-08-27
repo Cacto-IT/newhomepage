@@ -25,3 +25,8 @@
   margin-top: 48px;
   margin-bottom: 48px;
 }
+@media screen and (max-width: 480px) {
+  .subscribe__title {
+    text-align: center;
+  }
+}

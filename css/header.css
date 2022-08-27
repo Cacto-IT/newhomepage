@@ -52,3 +52,40 @@
   padding-bottom: 16px;
   color: var(--light);
 }
+@media screen and (max-width: 480px) {
+  .header {
+    height: auto;
+  }
+  .header__box {
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .menu__box--item {
+    border-bottom: 1px solid var(---primary);
+    width: 100%;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .menu__box--item:last-child {
+    margin: 0px;
+  }
+  .menu__box {
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .menu__button {
+    margin-top: 30px;
+  }
+}
